@@ -36,7 +36,7 @@ function setup() {
 
   var predict = select("#predict");
   predict.mousePressed(function() {
-    classify("B");
+    classify();
   });
 }
 

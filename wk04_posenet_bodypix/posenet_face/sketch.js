@@ -37,7 +37,7 @@ function draw() {
   var d = dist(eyerX, eyerY, eyelX, eyelY);
 
   fill(0, 0, 255);
-  ellipse(eyerX, eyerY, d);
+  ellipse(eyerX, eyerY, 1.5 * d);
   fill(255, 0, 0);
-  ellipse(eyelX, eyelY, d);
+  ellipse(eyelX, eyelY, 1.5 * d);
 }
